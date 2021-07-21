@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-div {
+    background-color: #FCEBE9;
+}
+
+.bg-button {
+    background-color: #FF5095;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 22px;
+}
+
+.bg-cat1 {
+    background-color: #FFA500;
+}
+
+.bg-cat2 {
+    background-color: #DA70D7;
+}
+
+.bg-cat3 {
+    background-color: #0200FF;
+}
