@@ -10,10 +10,280 @@
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .bg-div {
+            background-color: #FCEBE9;
+        }
+
+        .bg-button {
+            background-color: #FF5095;
+            color: #fff;
+            border-radius: 8px;
+            padding: 8px 22px;
+        }
+
+        .bg-cat1 {
+            background-color: #FFA500;
+        }
+
+        .bg-cat2 {
+            background-color: #DA70D7;
+        }
+
+        .bg-cat3 {
+            background-color: #0200FF;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- header start -->
+    <header class="container-fluid">
+        <!-- Naviation start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="" width="150" height="30"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bagpack">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Naviation end -->
 
+        <!-- Image Slider start-->
+        <section class="container mt-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row bg-div d-flex align-items-center p-5 rounded-3">
+                            <div class="col-lg-7">
+                                <h1>Cool Dude Headphone</h1>
+                                <p>This is the best headphone in the world for people who just want to waste time in
+                                    front
+                                    of funky world.</p>
+                                <h1>$220</h1>
+                                <button class="btn bg-button mt-3">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row bg-div d-flex align-items-center p-5 rounded-3">
+                            <div class="col-lg-7">
+                                <h1>Mega LCD TV For Sports</h1>
+                                <p>This is the best TV for watching Sports for the people who just want to waste time in
+                                    front
+                                    of funky world.</p>
+                                <h1>$800</h1>
+                                <button class="btn bg-button mt-3">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row bg-div d-flex align-items-center p-5 rounded-3">
+                            <div class="col-lg-7">
+                                <h1>X-Box for your living room</h1>
+                                <p>This is the best X-Box in the world for people who just want to waste time in
+                                    front
+                                    of funky world.</p>
+                                <h1>$400</h1>
+                                <button class="btn bg-button mt-3">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Image Slider end -->
+    </header>
+    <!-- Header end -->
+
+    <!-- Main start -->
+    <main>
+        <!-- Category start -->
+        <section class="container my-5">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="p-3 border rounded-3 d-flex justify-content-between align-items-center bg-cat1">
+                        <h1 class="text-light">Watch</h1>
+                        <img width="100" src="images/categories/watch.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="p-3 border rounded-3 d-flex justify-content-between align-items-center bg-cat2">
+                        <h1 class="text-light">Bag</h1>
+                        <img width="100" src="images/categories/bag.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="p-3 border rounded-3 d-flex justify-content-between align-items-center bg-cat3">
+                        <h1 class="text-light">Shoes</h1>
+                        <img width="100" src="images/categories/shoes.png" alt="">
+                    </div>
+                </div>
+        </section>
+        <!-- Category end -->
+
+        <!-- Shoes start -->
+        <section class="container my-5" id="shoes">
+            <h2>Shoes</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">This is a very wonderful Shoe for them who loved travelling. It is very
+                                flexible to wear.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn bg-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike 360</h5>
+                            <p class="card-text">This is a stylish shoe of Nike brand used in worlwide. It is very
+                                flexible to wear.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn bg-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Airmax</h5>
+                            <p class="card-text">This Shoe is for funky people who loved to show their attire in front
+                                of Funky World.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn bg-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Shoes end -->
+
+        <!-- Bagpack start -->
+        <section class="container my-5" id="bagpack">
+            <h2>Bagpack</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Laltu Bag</h5>
+                            <p class="card-text">This is a very wonderful Bag for them who need to use Laptop. It is
+                                very
+                                flexible to use.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn bg-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Niltu Bag</h5>
+                            <p class="card-text">This is a stylish Bag for them who need to use little bit cloths while
+                                Travelling. It is very
+                                flexible to wear.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn bg-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Black Kaltu Bag</h5>
+                            <p class="card-text">This Bag is for those people who need to travel with many cloths. This
+                                is very stylish one.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn bg-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Bagpack end -->
+
+        <!-- Subscribe start -->
+        <section class="container d-flex justify-content-center align-items-center bg-div rounded-3 px-3"
+            style="height:300px" id="subscribe">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <form action="">
+                    <input type="text" name="" placeholder="Your Email" class="form-control">
+                </form>
+                <button type="submit" class="btn bg-button my-3">SUBMIT</button>
+            </div>
+
+        </section>
+        <!-- Subscribe end -->
+    </main>
+    <!-- Main end -->
+
+    <!-- Footer start -->
+    <footer class="container mt-5 text-center">
+        <p><small>©2021. Panda Commerce. All rights reserved | Abir Mahmud.</small> </p>
+    </footer>
+    <!-- Footer end -->
 
     <!-- bootstrap Script -->
     <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
